@@ -12,6 +12,7 @@ import java.util.List;
 public class HelloController {
     @Autowired
     UserService userService;
+    //123123
     @RequestMapping("list")
     public List<User> list(){
         return userService.list();
